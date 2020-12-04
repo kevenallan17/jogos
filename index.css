@@ -1,0 +1,62 @@
+
+main{
+    display:flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-left:15%;
+    margin-right: 15%;
+    
+    
+}
+#formatação{
+    font-size: 20px;
+    font-weight: bolder;
+}
+#jogo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.selecionar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+button{
+    width:100px;
+    height: 30px;
+    background-color:white;
+}
+#adicionar_jogo{
+    width:100%;
+    margin-left: 4.9%;
+    margin-bottom: 10px;
+}
+i{
+    color:red;
+    margin-top:3px;
+    margin-right: 3px;
+}
+
+label{
+    font-size: 17px;
+}
+#btnAdicionar{
+    width:80px;
+}
+
+#jogo_escolhido{
+    font-size: medium;
+    text-align: center;
+    height: 25px;
+    width: 250px;
+    font-weight: bolder;
+    
+}
+#adicionar{
+    height: 20px;
+    font-size: 17px;
+}
+#btnEscolherJogo{
+    margin-top: 5px;
+}
