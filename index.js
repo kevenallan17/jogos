@@ -53,6 +53,7 @@ function adicionar_jogo(jogo){
 }
 
 btnEscolherJogo.addEventListener('click',function(){
+    jogo_escolhido.value="";
     escolher_jogo_aleatorio(lista_de_jogos)
 
 })
